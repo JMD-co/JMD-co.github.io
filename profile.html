@@ -9,40 +9,57 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <ol>
-        <li><strong>What's your name?</strong></li>
-        <p>Jay Mark Dacatimbang</p>
+    <h1 class="hello">Hello World!</h1>
 
-        <li><strong>What's your age?</strong></li>
-        <p>30</p>
+        <article class=question>
+            <strong>What's your name?</strong>
+            <p>Jay Mark Dacatimbang</p>
+        </article>
 
-        <li><strong>Where do you live?</strong></li>
-        <p>Terneuzen</p>
+        <article class=question>
+            <strong>What's your age?</strong>
+            <p>30</p>
+        </article>
 
-        <li><strong>What's your living situation?</strong></li>
-        <p>I live on my own.</p>
+        <article class=question>
+            <strong>Where do you live?</strong>
+            <p>Terneuzen</p>
+        </article>
 
-        <li><strong>Which premliminary education did you do?</strong></li>
-        <p><input id="mbo" type="radio" name="mbo-havo-vwo-other" value="mbo"><label for>mbo</label></ul>
+        <article class=question>
+            <strong>What's your living situation?</strong>
+            <p>I live on my own.</p>
+        </article>
+
+        <article class=question>
+            <strong>Which premliminary education did you do?</strong>
+            <p class="niveau"><input id="mbo" type="radio" name="mbo-havo-vwo-other" value="mbo"><label for>mbo</label></ul>
             <input id="havo" type="radio" name="mbo-havo-vwo-other" value="havo"><label for>havo</label>
             <input id="vwo" type="radio" name="mbo-havo-vwo-other" value="vwo"><label for>vwo</label>
             <input checked id="other" type="radio" name="mbo-havo-vwo-other" value="other"><label for>other</label>
-        </p>
+            </p>
+        </article>
 
-        <li><strong>Other, namely:</strong></li>
-        <p>In march I made the 21+ exam and passed with positive advice.</p>
+        <article class=question>
+            <strong>Other, namely:</strong>
+            <p>In march I made the 21+ exam and passed with positive advice.</p>
+        </article>
 
-        <li><strong>What profile did you finish at your preliminary education?</strong></li>
-        <p>colloquium doctum</p>
+        <article class=question>
+            <strong>What profile did you finish at your preliminary education?</strong>
+            <p>colloquium doctum</p>
+        </article>
 
-        <li><strong>Have you already followed an earlier HBO or university study?</strong></li>
-        <p><input id=yes type="radio" name="yes-no1" value="yes"><label for>yes</label>
+        <article class=question>
+            <strong>Have you already followed an earlier HBO or university study?</strong>
+            <p><input id=yes type="radio" name="yes-no1" value="yes"><label for>yes</label>
             <input checked id="no" type="radio" name="yes-no1" value="no"><label for>no</label>
-        </p>
+            </p>
+        </article>
 
-        <li><strong>What study choice activity did you do? (you can choose multiple answers)</strong></li>
-        <p><input id="study choice test" type="checkbox" value="study choice test"><label for>study choice test</label>
+        <article class=question>
+            <strong>What study choice activity did you do? (you can choose multiple answers)</strong>
+            <p><input id="study choice test" type="checkbox" value="study choice test"><label for>study choice test</label>
             <input checked id="open day" type="checkbox" value="open day"><label for>open day</label>
             <input id="open hosue" type="checkbox" value="open house"><label for>open house</label>
             <input id="proof study" type="checkbox" value="proofstudy"><label for>proof study</label>
@@ -55,51 +72,59 @@
             <input id="no study choice activities" type="checkbox" value="no study choice activities"><label for>no
                 study choice activities</label>
             <input id="different, namely" type="checkbox" value="different, namely"><label for>different, namely</label>
-        </p>
+            </p>
+        </article>
 
-        <li><strong>
-                <p>Different, namely:</p>
-            </strong></li>
+        <article class=question>
+            <strong><p>Different, namely:</p>
+            </strong>
+        </article>
 
-        <li><strong>What do you see yourself doing after completing this program? What career or position interests you?
-                Why? What do you hope to have learned in four years?</strong></li>
-        <p>After graduation, I hope to re-enter the job market with a degree in a rapidly growing and increasingly
+        <article class=question>
+            <strong>What do you see yourself doing after completing this program? What career or position interests you?
+                Why? What do you hope to have learned in four years?</strong>
+            <p>After graduation, I hope to re-enter the job market with a degree in a rapidly growing and increasingly
             important sector. I'm open to potentially pursuing a part-time cybersecurity degree. Once I complete my
             studies, I hope to find work for the government, municipality, or defense sector. If that doesn't work out,
             I wouldn't mind working for larger or international companies.</p>
 
-        <p>I'm not entirely sure which program I want to pursue yet, data scientist or software engineer, but I'm
+            <p>I'm not entirely sure which program I want to pursue yet, data scientist or software engineer, but I'm
             leaning
             towards data scientist. I'm interested in working with and optimizing large amounts of data. I'm incredibly
             interested in learning how to use different data, algorithms, and make predictions. While I'm interested in
             learning how to use and predict with data, I can't deny that I'm also very interested in learning how to
             program, developing software myself, testing it, improving it, and successfully applying it.</p>
 
-        <p>In four years, I hope to have learned enough to have a solid foundation for working in the IT sector. That I
+            <p>In four years, I hope to have learned enough to have a solid foundation for working in the IT sector. That I
             have enough knowledge to deploy myself broadly in different sectors and have more opportunities to possibly
             learn further within the world of ICT.</p>
+        </article>
 
-        <li><strong>Do you got a (side)job?</strong></li>
-        <p><input id=yes type="radio" value="yes" name="yes-no2"><label for>yes</label>
+        <article class=question>
+            <strong>Do you got a (side)job?</strong>
+            <p><input id=yes type="radio" value="yes" name="yes-no2"><label for>yes</label>
             <input checked id="no" type="radio" value="no" name="yes-no2"><label for>no</label>
-        </p>
+            </p>
+        </article>
 
-        <li><strong>Do you have a hobby or interest that you would like to share?</strong></li>
-        <p> My hobbies are reading, drawing/painting, and exploring nature and history.</p>
-
-        <p>Reading fiction is something I've done since childhood. I love losing myself in a good story with a
+        <article class=question>
+            <strong>Do you have a hobby or interest that you would like to share?</strong>
+            <p> My hobbies are reading, drawing/painting, and exploring nature and history.</p>
+                
+            <p>Reading fiction is something I've done since childhood. I love losing myself in a good story with a
             well-developed world. Although I don't do it very often, I also really enjoy building my own worlds and
             writing stories for Dungeons & Dragons.</p>
 
-        <p>Drawing and painting is also something I've been doing since elementary school. It's one of the few ways I
+            <p>Drawing and painting is also something I've been doing since elementary school. It's one of the few ways I
             can creatively express my emotions and feelings.</p>
 
-        <p>Exploring nature is a moment of calm for me. It calms me down, and I always feel energized afterward.</p>
+            <p>Exploring nature is a moment of calm for me. It calms me down, and I always feel energized afterward.</p>
 
-        <p>I've always loved history. I can really immerse myself in it. The stories, evidence and mythos surrounding it
+            <p>I've always loved history. I can really immerse myself in it. The stories, evidence and mythos surrounding it
             have
             always fascinated me.</p>
-</ol>
+        </article>
+
 
 <a href="index.html">Home</a>
 <a href="profile.html">Profile</a>
